@@ -1,0 +1,21 @@
+{
+  "name": "templatejs",
+  "version": "1.0.0",
+  "authors": [
+    "davidegaspar <me@davidegaspar.com>"
+  ],
+  "description": "templating engine",
+  "main": "Template.js",
+  "keywords": [
+    "template",
+    "json"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
