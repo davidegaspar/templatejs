@@ -7,7 +7,7 @@ function Template(e){//dom element
   e.innerHTML='';
   //private
   var parse=function(s,o){
-    var a=s.split('§');
+    var a=s.split(/§\[|§\]/);
     for(var k=1;k<a.length;k+=2)o.hasOwnProperty(a[k])?a[k]=o[a[k]]:a[k]='';
     return a.join('');
   }
